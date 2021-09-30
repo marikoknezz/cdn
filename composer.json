@@ -1,0 +1,23 @@
+{
+  "name": "shopsys/cdn",
+  "description": "This bundle provides easy way to using CDN",
+  "keywords": ["shopsys", "framework", "symfony", "cdn"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Petr Kadlec",
+      "email": "petr.kadlec@shopsys.com",
+      "homepage": "http://shopsys.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "shopsys/framework": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shopsys\\Cdn\\": "src"
+    },
+    "classmap": [ "src" ]
+  }
+}
